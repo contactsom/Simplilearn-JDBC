@@ -1,0 +1,80 @@
+
+TODO:
+//What is MVC ?
+We will not be writining code for every student like if there is afile and someone want to insert all that to database through java how will we do that
+
+
+
+
+jdbc:mysql://localhost:3306/simplilearn
+
+1. We want to connect "some database" through JDBC :
+2. "some database" = mysql :
+3. Where is this data base Located "localhost" :
+4. In which port sql is running -  3306 :
+5. And use the datbase called "simplilearn" * User defined 
+
+
+
+
+        
+
+1. Home Work for STATEMENT :
+	UPDATE
+	DELETE
+
+2. Home Work for PREPARED STATEMENT :
+	UPDATE
+	DELETE
+	SELECT
+
+
+1. What are the JDBC steps we have to write to connect with DB?
+2. Explain URL.
+3. Diff between Statement & Prepared Statement ?
+4. Internally Prepared Statement which Interface refering -> Statement
+public abstract interface java.sql.PreparedStatement extends java.sql.Statement 
+
+5. What will happen when driver class is loaded ? 
+Class.forName("com.mysql.cj.jdbc.Driver");	
+ Task 1 : OracleDriver od = new OracleDriver();
+          Driver od = new Driver();
+ Task 2 : Registering the Driver class instance with the Driver Manager
+           DriverManager.registerDriver(od);
+           
+           
+ 
+Tomarow Agenda :
+ Remaining JDBC
+ Hibernate
+
+Learn : Stored Procedures
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     

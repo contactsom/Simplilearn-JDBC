@@ -1,0 +1,11 @@
+Hibernate: 
+
+select MOVIE_ID ,MOVIE_DIRECTOR ,MOVIE_NAME ,MTICKET_PRICE from MOVIES  where MOVIE_ID=?
+
+
+
+ Movie ID- 1  Movie Name- Dracua Untold  Movie Price- 900  Movie Director- Gary Shore
+  Movie ID- 2  Movie Name- Harry Potter  Movie Price- 800  Movie Director- Prashanth Neel
+ 
+ 
+ Select * from MOVIEW where id=2

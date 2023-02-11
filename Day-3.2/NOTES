@@ -1,0 +1,11 @@
+Step:
+1. Load the Annotation JAR
+2. Add to build path
+3. Place the hibernate.cfg.xml file in to /src folder same as XML 
+
+
+i mean from config i can pass YES
+but i tried but its not accepting
+
+
+

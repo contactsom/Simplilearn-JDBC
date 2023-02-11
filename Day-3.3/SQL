@@ -1,0 +1,11 @@
+
+USE simplilearn;
+ 
+create table MOVIES(	
+		MOVIE_ID int  PRIMARY KEY NOT NULL AUTO_INCREMENT,	 
+		MOVIE_NAME char(30),
+		MTICKET_PRICE long,
+		MOVIE_DIRECTOR char(30)
+	);
+
+select * from MOVIES;

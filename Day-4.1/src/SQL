@@ -1,0 +1,22 @@
+Tables :
+select * from students;
+select * from courses;
+select * from emails;
+select * from marks;
+select * from phones;
+select * from refs;
+
+
+
+If Below table exist than Drop
+
+USE simplilearn;
+SET foreign_key_checks = 0;
+
+drop table students;
+drop table courses;
+drop table emails;
+drop table marks;
+drop table phones;
+drop table refs;
+SET foreign_key_checks = 1;

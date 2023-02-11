@@ -1,0 +1,12 @@
+USE simplilearn;
+ 
+create table customers(	
+		cid int  PRIMARY KEY NOT NULL AUTO_INCREMENT,	 
+		cname char(15),
+		email char(15),
+		phone long,
+		city char(15),
+		bal double
+	);
+
+select * from customers;

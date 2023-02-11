@@ -1,0 +1,13 @@
+
+USE simplilearn;
+/*Drop Table if Exist*/
+
+SET foreign_key_checks = 0;
+
+drop table customers;
+drop table orders;
+
+SET foreign_key_checks = 1;
+
+select * from customers;
+select * from orders;

@@ -1,0 +1,18 @@
+TODO :
+1 question please. in project given in simplilear, what type of mapping should be use in DB. this is very confusing.
+
+
+Mapping (XML & Annotation ):
+1. one to one mapping (bi-directional)
+2. One to many Mapping (bi-directional) 
+
+This program is for "One to many" Mapping (bi-directional) using XML
+
+Customer
+Order
+
+1. One customer have many order (one to many) <one-to-many  />
+2. Each order belongs to one customer         <many-to-one  />
+
+
+in hibernate we use folder , can we use class there

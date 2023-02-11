@@ -1,0 +1,88 @@
+DELIMITER //
+
+CREATE PROCEDURE GetAllEmployee()
+BEGIN
+	SELECT *  FROM Employees;
+END //
+
+DELIMITER ;
+
+
+************************
+
+For JdbcConcurrency.java
+
+drop table Employees;
+ 
+create table Employees(
+     id int NOT NULL PRIMARY KEY,
+     age int NOT NULL,
+     first varchar (255),
+     last varchar (255)
+     );
+     
+INSERT INTO Employees VALUES (100, 21, 'JACK', 'EDITION');
+INSERT INTO Employees VALUES (101, 22, 'RUSTY', 'COLTONS');
+INSERT INTO Employees VALUES (102, 23, 'MOHAN', 'P');
+INSERT INTO Employees VALUES (103, 24, 'PALANI', 'K');
+INSERT INTO Employees VALUES (104, 25, 'SHRI', 'KANTA');
+INSERT INTO Employees VALUES (105, 26, 'WILMAN', 'KALA');
+
+
+***************************
+Project DB :
+
+
+create table BOOK(
+     BOOK_ID     int NOT NULL PRIMARY KEY,
+     BOOK_NAME   varchar (255),
+     BOOK_PRICE  int NOT NULL,
+     BOOK_AUTHOR varchar (255)
+     );
+
+INSERT INTO BOOK  VALUE  (101, 'SQL in 10 Minutes', 500, 'Sams Teach');
+INSERT INTO BOOK  VALUE  (102, 'Introduction to Java programming', 300, 'Y. Daniel Liang');
+INSERT INTO BOOK  VALUE  (103, 'Java: The Complete Reference', 400, 'Herbert Schildt');
+INSERT INTO BOOK  VALUE  (104, 'C++', 750, 'Yashwant Kanetkar');
+
+
+
+
+
+
+
+BREAK : we will back at 10:15 Pm IST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	

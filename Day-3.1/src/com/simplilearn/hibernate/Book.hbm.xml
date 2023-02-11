@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.hibernate">
+	
+	<class name="Book" table="BOOK">
+
+		<id name="bookid" column="BOOK_ID" type="int">	
+		<generator class="increment" />	
+		</id>		
+		
+		<property name="bookName" column="BOOK_NAME"/>
+		<property name="bookPrice" column="BOOK_PRICE" type="long" />
+		<property name="bookAuthor" column="BOOK_AUTHOR" type="string" />
+				
+		
+	</class>
+</hibernate-mapping>
+
+

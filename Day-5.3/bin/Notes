@@ -1,0 +1,48 @@
+
+Many to Many Mapping bi-directional using Annotation
+
+Many customer have many Accounts
+Many Accounts have many custo	mer
+
+
+we will be using hibernate query lang. for fetching data from db?
+
+inve rsecolumn
+
+
+1. One to One  Mapping / XML / Annotation / Bi derctional 
+2. One to Many  Mapping / XML / Annotation / Bi derctional 
+3. Many to Many  Mapping / XML / Annotation / Bi derctional 
+4. Many to One -> HOME Work 
+
+
+
+
+
+
+
+
+
+BREAK : Will back at 9:30 PM IST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

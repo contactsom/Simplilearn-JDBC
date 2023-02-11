@@ -1,0 +1,113 @@
+
+
+HIBERNATE :
+	1. XML
+	2. ANNOTATION 
+	
+For XML Configuration :
+Step 1: Load the JAR's
+Step 2: Configure the Hibernate Configuration File (hibernate.cfg.xml) in to src folder not in package 
+Step 3: Create the rquired TABLE. Here customers.
+Step 4: Write the TO/POJO Class for the respective SQL Table .
+		TO - Transfrable Object 
+		POJO - Plain JAVA object   
+	
+Step 5: We need to creare the HBM file and placed in to package
+   
+   TODO:
+   
+   
+   
+Execution :
+
+XML
+	1. Load the hibernate.cfg
+	2. Load the *.hbm.xml file 
+	3. Load the Entity/POJO/TO Class
+	4. Execute and provide the output
+
+
+Annotation (@Entity)
+	1. Load the hibernate.cfg
+	2. Load the Entity Class
+	3. Execute and provide the output
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

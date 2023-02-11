@@ -1,0 +1,56 @@
+
+This Example for One to One Mapping Using XML
+
+In Hibernate XML for one-to-one mapping <many-to-one...> tag is defined 
+
+
+1. ONE STUDENT HAVE ONE ADDRESS - TRUE/FALSE ?
+2. One address have one student  
+
+Ans : 1 or 2
+
+THEN I AM GOING TO USE one-to-one mapping 
+
+STUDENT
+ADDRESS
+
+************************************************************************************
+load
+org.hibernate.ObjectNotFoundException: No row with the given identifier exists:
+
+get
+java.lang.NullPointerException : at com.simplilearn.mapping.StudentClient2.main(StudentClient2.java:21)
+
+
+1. load(Old)/(slow)-Student object not found Exception- Why ? -> Student Class/Class loading not happen
+2. get(Latest)(fastest)-Student object is Null Exception -> Class is exist but data is not there 
+
+************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

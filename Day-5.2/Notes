@@ -1,0 +1,15 @@
+Many to Many Mapping bi-directional using XML
+
+Many customer have many Accounts
+Many Accounts have many custo	mer
+
+Cust-1  
+Cust-2
+Cust-3
+
+Joint Account have more than one account holder 
+
+
+"Many to one" mapping is the combination of "one To one" mapping , Agree ? or not 
+
+

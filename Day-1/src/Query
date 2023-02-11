@@ -1,0 +1,60 @@
+Installation :
+
+1. Install the MySql
+2. MySQL Workbench
+
+MYSQL    : 8.0.28
+User     : root
+Password : root12345
+
+3. Download JAR "mysql-connector-java-8.0.28.jar"
+URL      : https://dev.mysql.com/downloads/connector/j/?os=26
+Select   : Platform Independent (Architecture Independent), ZIP Archive
+Unzip 
+
+JAVA     : 1.8.311.11
+
+
+
+show databases;
+
+/*drop DATABASE simplilearn;*/
+
+CREATE DATABASE simplilearn;
+
+USE simplilearn;
+
+create table Employees(
+     id int not null,
+     age int not null,
+     first varchar (255),
+     last varchar (255)
+     );
+		       
+INSERT INTO Employees VALUES (100, 21, 'JACK', 'EDITION');
+INSERT INTO Employees VALUES (101, 22, 'RUSTY', 'COLTONS');
+INSERT INTO Employees VALUES (102, 23, 'MOHAN', 'P');
+INSERT INTO Employees VALUES (103, 24, 'PALANI', 'K');
+INSERT INTO Employees VALUES (104, 25, 'SHRI', 'KANTA');
+INSERT INTO Employees VALUES (105, 26, 'WILMAN', 'KALA');
+
+SELECT * FROM Employees;
+
+***********************************************************************
+
+ create table Student(
+     Stu_id     int not null,
+     Stu_FName  varchar (255) not null,
+     Stu_LName  varchar (255),
+     Stu_Marks  int
+  );   
+  
+   INSERT INTO Student VALUES (201, 'Shivam', 'Tiwari', 90);
+   INSERT INTO Student VALUES (202, 'Joe', 'Biden', 25);
+   INSERT INTO Student VALUES (203, 'Suvin', 'Rohith', 56);
+   INSERT INTO Student VALUES (204, 'Srivalli', 'Kamath', 80);  
+   INSERT INTO Student VALUES (205, 'Robert', 'downey', 70);  
+   
+   select * from Student;
+   
+   

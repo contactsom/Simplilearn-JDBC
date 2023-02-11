@@ -1,0 +1,13 @@
+If Below table exist than Drop
+
+
+USE simplilearn;
+SET foreign_key_checks = 0;
+drop table accounts;
+drop table customers;
+drop table cust_acc;
+SET foreign_key_checks = 1;
+
+select * from accounts;
+select * from customers; 
+select * from cust_acc;

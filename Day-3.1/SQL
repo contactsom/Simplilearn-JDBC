@@ -1,0 +1,13 @@
+
+
+USE simplilearn;
+ 
+create table BOOK(	
+		BOOK_ID int  PRIMARY KEY NOT NULL AUTO_INCREMENT,	 
+		BOOK_NAME char(30),
+		BOOK_PRICE long,
+		BOOK_AUTHOR char(30)
+	);
+
+select * from BOOK;
+

@@ -1,0 +1,71 @@
+22:05:40,361  INFO Environment:456 - Hibernate 3.0rc1
+22:05:40,367  INFO Environment:469 - hibernate.properties not found
+22:05:40,368  INFO Environment:502 - using CGLIB reflection optimizer
+22:05:40,368  INFO Environment:532 - using JDK 1.4 java.sql.Timestamp handling
+22:05:40,369  INFO Configuration:1228 - configuring from resource: /hibernate.cfg.xml
+22:05:40,369  INFO Configuration:1199 - Configuration resource: /hibernate.cfg.xml
+22:05:40,445  INFO Configuration:439 - Mapping resource: com/simplilearn/logging/Customer.hbm.xml
+22:05:40,542  INFO HbmBinder:256 - Mapping class: com.simplilearn.logging.Customer -> customers
+22:05:40,560  INFO Configuration:1340 - Configured SessionFactory: null
+22:05:40,562  INFO Configuration:844 - processing extends queue
+22:05:40,562  INFO Configuration:848 - processing collection mappings
+22:05:40,563  INFO Configuration:857 - processing association property references
+22:05:40,563  INFO Configuration:884 - processing foreign key constraints
+22:05:40,617  INFO Dialect:89 - Using dialect: org.hibernate.dialect.MySQLDialect
+22:05:40,623  INFO SettingsFactory:87 - Maximum outer join fetch depth: 2
+22:05:40,624  INFO SettingsFactory:90 - Default batch fetch size: 1
+22:05:40,624  INFO SettingsFactory:94 - Generate SQL with comments: disabled
+22:05:40,624  INFO SettingsFactory:98 - Order SQL updates by primary key: disabled
+22:05:40,624  INFO SettingsFactory:273 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+22:05:40,625  INFO ASTQueryTranslatorFactory:21 - Using ASTQueryTranslatorFactory
+22:05:40,625  INFO SettingsFactory:106 - Query language substitutions: {}
+22:05:40,627  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+22:05:40,630  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+22:05:40,630  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+22:05:40,710  INFO DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/simplilearn
+22:05:40,712  INFO DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+22:05:41,466  INFO SettingsFactory:148 - JDBC batch size: 15
+22:05:41,468  INFO SettingsFactory:151 - JDBC batch updates for versioned data: disabled
+22:05:41,468  INFO SettingsFactory:156 - Scrollable result sets: enabled
+22:05:41,468  INFO SettingsFactory:164 - JDBC3 getGeneratedKeys(): enabled
+22:05:41,470  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+22:05:41,471  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+22:05:41,471  INFO SettingsFactory:176 - Automatic flush during beforeCompletion(): disabled
+22:05:41,471  INFO SettingsFactory:179 - Automatic session close at end of transaction: disabled
+22:05:41,471  INFO SettingsFactory:260 - Cache provider: org.hibernate.cache.EhCacheProvider
+22:05:41,473  INFO SettingsFactory:187 - Second-level cache: enabled
+22:05:41,473  INFO SettingsFactory:192 - Optimize cache for minimal puts: disabled
+22:05:41,473  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
+22:05:41,474  INFO SettingsFactory:203 - Query cache: disabled
+22:05:41,474  INFO SettingsFactory:210 - Echoing all SQL to stdout
+22:05:41,474  INFO SettingsFactory:214 - Statistics: disabled
+22:05:41,474  INFO SettingsFactory:218 - Deleted entity synthetic identifier rollback: disabled
+22:05:41,474  INFO SettingsFactory:232 - Default entity-mode: pojo
+22:05:41,668  INFO SessionFactoryImpl:140 - building session factory
+22:05:41,672  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/Users/om/Simplilearn-JDBC/Day-5.5/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+22:05:41,790  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+22:05:41,792  INFO Dialect:89 - Using dialect: org.hibernate.dialect.MySQLDialect
+22:05:41,792  INFO Configuration:844 - processing extends queue
+22:05:41,792  INFO Configuration:848 - processing collection mappings
+22:05:41,792  INFO Configuration:857 - processing association property references
+22:05:41,792  INFO Configuration:884 - processing foreign key constraints
+22:05:41,792  INFO Configuration:844 - processing extends queue
+22:05:41,792  INFO Configuration:848 - processing collection mappings
+22:05:41,792  INFO Configuration:857 - processing association property references
+22:05:41,793  INFO Configuration:884 - processing foreign key constraints
+22:05:41,793  INFO SchemaExport:100 - Running hbm2ddl schema export
+22:05:41,793  INFO SchemaExport:121 - exporting generated schema to database
+22:05:41,793  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+22:05:41,793  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+22:05:41,793  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+22:05:41,793  INFO DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/simplilearn
+22:05:41,793  INFO DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+22:05:41,893  INFO SchemaExport:166 - schema export complete
+22:05:41,897  INFO DriverManagerConnectionProvider:147 - cleaning up connection pool: jdbc:mysql://localhost:3306/simplilearn
+22:05:41,898  INFO SessionFactoryImpl:366 - Checking 0 named queries
+22:05:41,931 DEBUG StringType:59 - binding 'rmkatka' to parameter: 1
+22:05:41,931 DEBUG StringType:59 - binding 'mk@abc.com' to parameter: 2
+22:05:41,931 DEBUG LongType:59 - binding '123789' to parameter: 3
+22:05:41,932 DEBUG StringType:59 - binding 'Hyd1' to parameter: 4
+22:05:41,932 DEBUG DoubleType:59 - binding '4000.0' to parameter: 5
+22:05:41,932 DEBUG IntegerType:59 - binding '1' to parameter: 6

@@ -1,0 +1,24 @@
+Stored Procedure?
+
+select * from employee;
+select * from student where stuid=123;
+
+? ? ? ? 
+
+callable statement is a part of prepare statement ?
+
+statement(I) 
+   Prepared Statement(I) 
+   		Callable Statement(I) *
+
+   		Prepared Statement(I)  extends statement
+   		Callable Statement(I) extends Prepared Statement(I) *
+   		Callable Statement(I) extends Statement , Prepared Statement(I)(Translation)
+   		
+   		
+   		
+   		
+   		
+
+   		
+   		
