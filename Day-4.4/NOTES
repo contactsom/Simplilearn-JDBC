@@ -1,0 +1,73 @@
+
+1. ONE STUDENT HAVE ONE ADDRESS 
+
+
+Means , 
+1. If I will talk to student i will get the student address
+
+I want :
+  If I visit Student address, I can find student also 
+
+
+One Directional 
+STUDENT ->  ADDRESS 
+STUDENT <-  ADDRESS 
+
+Bi-Directional 
+STUDENT <->  ADDRESS 
+
+Mapping :
+	one-to-one mapping (one directional)
+	one-to-one mapping (Bi-directional)
+
+***********************************************************************	
+This Example to achive the one-to-one mapping (Bi-directional) using XML
+***********************************************************************
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,11 @@
+If Below table exist than Drop
+
+
+USE simplilearn;
+SET foreign_key_checks = 0;
+drop table students;
+drop table address;
+SET foreign_key_checks = 1;
+
+select * from address;
+select * from students; 

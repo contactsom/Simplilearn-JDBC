@@ -1,0 +1,17 @@
+Tables :
+select * from students;
+select * from courses;
+select * from emails;
+select * from marks;
+select * from phones;
+select * from refs;
+
+
+drop table students;
+drop table courses;
+drop table emails;
+drop table marks;
+drop table phones;
+drop table refs;
+
+
